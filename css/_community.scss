@@ -1,0 +1,48 @@
+.community{
+    padding:5% 0;text-align: center; 
+    h2{
+        font-size:50px;padding-bottom: 30px;
+        @media(max-width:1000px){
+            font-size:40px;
+        }
+        @media(max-width:767px){
+            font-size:25px;
+        }
+    }
+    .item{
+         height:300px;padding:5%;text-align: left;display:flex ;flex-direction:column;justify-content:center;
+         @media(max-width:1000px){
+            height:200px;
+        }
+h5{
+    text-transform:uppercase;color:$green;
+}
+p{
+    font-size:40px;color:white;
+    @media(max-width:1000px){
+        font-size: 24px;
+    }
+    @media(max-width:767px){
+        font-size:25px;
+    }
+}
+    }
+    .item1{
+            background:linear-gradient(to bottom,rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.397)), url("../img/item1.jpg");background-size: cover;  
+    }
+    .item2{
+        background:linear-gradient(to bottom,rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.397)), url("../img/item2.jpg");background-size: cover;  
+}
+.item3{
+    background:linear-gradient(to bottom,rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.397)), url("../img/item3.jpg");background-size: cover;  
+}
+.item4{
+    background:linear-gradient(to bottom,rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.397)), url("../img/item4.jpg");background-size: cover;  
+}
+.item5{
+    background:linear-gradient(to bottom,rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.397)), url("../img/item5.jpg");background-size: cover;  
+}
+.item6{
+    background:linear-gradient(to bottom,rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.397)), url("../img/item6.jpg");background-size: cover;  
+}
+}

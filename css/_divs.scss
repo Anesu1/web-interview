@@ -1,0 +1,38 @@
+.divs{
+    .col-md-6{
+        display: flex;max-height:300px;padding:5%;
+        @media(max-width:767px){
+            padding:16% 5%;
+        }
+        h3,h5{
+            text-transform:capitalize;
+        }
+        img{
+            height:100px;margin-right:20px;
+        }
+        &:first-child{
+            background:$green;color:white;
+        }
+        &:last-child{
+            border-bottom: 1px solid black;
+        }
+        &:nth-child(2),
+        &:nth-child(3){
+            background:$black;
+            h3,h5{
+                color: white;
+            }
+        }
+        &:nth-child(2){
+            @media(max-width:767px){
+                border-bottom: 1px solid white;
+            }
+        }
+        h3{
+            @media(max-width:767px){
+                font-size:25px;
+            }
+        }
+
+    }
+}

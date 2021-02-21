@@ -1,0 +1,74 @@
+$green: #07DAC0;
+$black:#171810;
+$grey:#4D4D4D;
+
+@font-face {
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: url("./roboto/Roboto-Regular.ttf") /* IE9 Compat Modes */
+  }
+html, body, div, span, applet, object, iframe,
+ blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;overflow-x: hidden;font-family: roboto;
+}
+html{
+	scroll-behavior: smooth;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h2{
+	text-transform: capitalize;font-weight: bold;
+	span{
+		color:$green;
+	}
+}
+img{width: 100%;}
+
+@import "./banner";
+@import "./about";
+@import "./companies";
+@import "./provision";
+@import "./divs";
+@import "./community";
+@import "./subscribe";
+@import "./services";
+@import "./team";
+@import "./footer";

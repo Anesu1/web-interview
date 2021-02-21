@@ -1,0 +1,21 @@
+.team{
+    @media(min-width:768px){
+        .gallery4{display: flex;flex-wrap: wrap;
+            .gallery-inner2{
+
+                width:50%;height:300px;overflow: hidden;
+                img{width: 500px;}
+            }
+        }
+
+    }
+    @media(min-width:992px){
+        .gallery4{
+            .gallery-inner2{
+
+                width:25%;
+            }
+        }
+
+    }
+}

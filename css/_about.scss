@@ -1,0 +1,27 @@
+.about{
+    padding:5% ;
+    .para{
+        text-align: center;font-size: 15px;margin: 3% auto;
+        @media(min-width:992px){
+            width:70%;
+        }
+    }
+    
+}
+.gallery{
+
+    .gallery-inner{
+        position: relative;
+        button{position: absolute;left:50%;top:70%;width:150px;height:40px;font-size:15px;border:none;background:white;transform:translateX(-50%);}
+    }
+    @media(min-width:768px){
+        display: flex;flex-wrap:wrap;
+        .gallery-inner{
+            width:50%;overflow:hidden;height:400px;
+            img{width:800px;}
+        }
+    }
+    @media(min-width:992px){
+        width:70%;margin:0 auto;
+    }
+}
